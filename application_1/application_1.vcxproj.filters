@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="internal">
+      <UniqueIdentifier>{c42d9f98-b330-4651-9813-0241247849eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{ef16fa97-39fe-4b3c-9f71-c1fe66eef6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presenatation">
+      <UniqueIdentifier>{c9df634e-4780-4fb3-b145-786de4de55ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{3e7c1c5a-5bfe-4f1f-82e7-b32880e66f24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presenatation\screens">
+      <UniqueIdentifier>{22188d73-78a6-4c4e-bae2-cf39dda2d1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models">
+      <UniqueIdentifier>{ee1d5d24-ab6d-4ead-8c06-1cc8fd245d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\providers">
+      <UniqueIdentifier>{16e8bdd1-7c92-43fa-8e4c-275e9aa03d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\interactor">
+      <UniqueIdentifier>{bf4361b6-1e40-468c-a008-c9b9332f90bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data\files">
+      <UniqueIdentifier>{0d27ceb1-a164-4a79-99e0-5c4cd6bf8d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presenatation\screens\home">
+      <UniqueIdentifier>{3a8e0472-fc16-4d08-975a-ba72306a27d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models\book">
+      <UniqueIdentifier>{c26c4bc6-f355-4cf2-aa6a-11d8ce484356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\models\book_library">
+      <UniqueIdentifier>{45e8d22e-0408-4343-9311-8e572dfcb543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\providers\library_provider">
+      <UniqueIdentifier>{f2e3a400-fe50-49a1-8afa-b0e2abd457fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presenatation\dialogs">
+      <UniqueIdentifier>{6c7eda44-69d9-411c-a6d6-1a6dcb6ffb27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="internal\application.cpp">
+      <Filter>internal</Filter>
+    </ClCompile>
+    <ClCompile Include="domain\models\book\Book.cpp">
+      <Filter>domain\models\book</Filter>
+    </ClCompile>
+    <ClCompile Include="domain\models\book_library\book_library.cpp">
+      <Filter>domain\models\book_library</Filter>
+    </ClCompile>
+    <ClCompile Include="presentation\screens\home\home.cpp">
+      <Filter>presenatation\screens\home</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="internal\library.h">
+      <Filter>internal</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\models\book\Book.h">
+      <Filter>domain\models\book</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\models\book_library\book_library.h">
+      <Filter>domain\models\book_library</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\screens\screens.h">
+      <Filter>presenatation\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="domain\providers\library_provider\library_provider.h">
+      <Filter>domain\providers\library_provider</Filter>
+    </ClInclude>
+    <ClInclude Include="presentation\dialogs\console_dilogs.h">
+      <Filter>presenatation\dialogs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
